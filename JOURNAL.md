@@ -20,10 +20,13 @@ Today, work has been somewhat slow, but I think it should start to go better onc
 
 # May 24: Schematics
 
-Today I want to mostly finish the schematics, at least for the keyboard part. Last time, I forgot to save my schematic, but it is fine, because I only made slight progresss. Since I want to use USB-C, I needed to figure out what the special pins are for. It seems like many of them can be shorted, but CC1 and CC2 need to be pulled down. Next, I looked on the components catalog and found what I was looking for earlier: 4 pin wire to board connector. This should let me plug the Pico in without needing the test points. I made a test PCB to see about specific parts, and everything is fine except for the Pico, which it can only make the pads for (assembly costs +$50), so I will solder it on manually. I also added the USB-A ports for mice and etc.. It is taking a while to find the correct components and figure out how to read the spec sheets, but I think I am getting a hang of it. This is what I have so far. 
+Today I want to mostly finish the schematics, at least for the keyboard part. Last time, I forgot to save my schematic, but it is fine, because I only made slight progresss. Since I want to use USB-C, I needed to figure out what the special pins are for. It seems like many of them can be shorted, but CC1 and CC2 need to be pulled down. Next, I looked on the components catalog and found what I was looking for earlier: 4 pin wire to board connector. This should let me plug the Pico in without needing the test points. I made a test PCB to see about specific parts, and everything is fine except for the Pico, which it can only make the pads for (assembly costs +$50), so I will solder it on manually. I also added the USB-A ports for mice and etc.. It is taking a while to find the correct components and figure out how to read the spec sheets, but I think I am getting a hang of it. This is what I have so far.
+
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d33dd988320a5a328f591fa9a7b45f70af6fc251_image.png)
 
 Thinking more about the display on the keyboard, I think that I will make it be a "Now Playing" thing like [this Spotify display](https://github.com/Dongathan-Jong/SpotifyDisplay/?tab=readme-ov-file) 
  **2.5 hrs**
 
- # May 25: K
+ # May 25: Key layout
+
+ Now, it is time to make the keyboard. I used keyboard-layout-editor.com to generate a layout that I like,
