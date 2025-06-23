@@ -16,6 +16,7 @@ After spending a little while trying to input pcb elements into kicad, I decided
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/be045fe81315f0288636f58adefc04a6cdf7124f_screenshot_2025-05-24_002139.png)
 
 Today, work has been somewhat slow, but I think it should start to go better once I have this software figured out.
+
 **4 hrs**
 
 # May 24: Schematics
@@ -25,7 +26,8 @@ Today I want to mostly finish the schematics, at least for the keyboard part. La
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d33dd988320a5a328f591fa9a7b45f70af6fc251_image.png)
 
 Thinking more about the display on the keyboard, I think that I will make it be a "Now Playing" thing like [this Spotify display](https://github.com/Dongathan-Jong/SpotifyDisplay/?tab=readme-ov-file) 
- **2.5 hrs**
+
+**2.5 hrs**
 
  # May 25: Key layout
 
