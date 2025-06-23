@@ -29,4 +29,14 @@ Thinking more about the display on the keyboard, I think that I will make it be 
 
  # May 25: Key layout
 
- Now, it is time to make the keyboard. I used keyboard-layout-editor.com to generate a layout that I like,
+ Now, it is time to make the keyboard. I used keyboard-layout-editor.com to generate a layout that I like. After doing some reasearch I think that I am going to use a slightly modified 75% keyboard with space for the screen that I want to add. I think I will use [these keycaps](https://www.amazon.com/dp/B0D1QYXBNV?th=1) because they look cool and are pretty cheap. They also support many keyboard layouts. 
+ 
+ ![](https://github.com/user-attachments/assets/fae62950-9944-42f3-984f-2ff54f396937)
+
+**30 minutes**
+
+# June 22: The screen
+
+After a long break for no reason, I am back to this project. I realized that the deadline is coming up, so I have to finish this.
+Most of this project has been (sort of) simple up until this part for me. I want to be able to read my plugged in computers "now playing" window. Using this, I am, hopefully, going to display song title, artist, progress, and album cover. I think the easiest way to do this will be sung the winsdk python library.
+
