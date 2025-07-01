@@ -35,7 +35,7 @@ Thinking more about the display on the keyboard, I think that I will make it be 
  
  ![](https://github.com/user-attachments/assets/fae62950-9944-42f3-984f-2ff54f396937)
 
-**30 minutes**
+**0.5 hours**
 
 # June 22/23: The screen
 
@@ -46,4 +46,16 @@ Most of this project has been (sort of) simple up until this part for me. I want
 
 
 **1.75 hours**
+
+# June 27: Nitty gritty
+
+I looked at the displays again and I think I will use one display for the image and one for the text. I will probably use [this](https://www.amazon.com/dp/B0CFF17DGH?) for the image, and [this](https://www.amazon.com/dp/B0CFF17DGH?) for the text. I will control these from some RP2040 board and use [this library](https://learn.adafruit.com/adafruit-monochrome-1-12-in-128x128-oled/pinouts) for the text and [this one](https://github.com/adafruit/Adafruit-ST7735-Library) for the image. I think i will use another Pi pico. It took a little while to find documented displays in the right size that didn't cost a lot, but these seem fine.
+
+**0.25 hours**
+
+# June 30: Schematics.. again
+
+
+
+
 
