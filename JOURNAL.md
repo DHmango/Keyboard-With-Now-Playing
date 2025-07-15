@@ -53,7 +53,7 @@ I looked at the displays again and I think I will use one display for the image 
 
 **0.25 hours**
 
-# June 30: Schematics.. again
+# July 14: Schematics.. again
 
 
 
