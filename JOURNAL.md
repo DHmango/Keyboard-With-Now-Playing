@@ -57,7 +57,6 @@ I looked at the displays again and I think I will use one display for the image 
 
 oops, i stalled!
 
-![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d285198f39536ad42af8788581f7bb16e52c94f5_image.png)
 
 For some reason I keep working late at night, so this writing may be sloppy.
 I locked in and finished the schematic. I'm honestly not sure if I'm doing this right, and I'm probably using bad practices or something, but I think it _should_ work. I had to combine the schematic I made with the one I generated, but I'm not sure I did it right. It looks ok though, and I ended up using nets to connect them.
@@ -65,6 +64,10 @@ I locked in and finished the schematic. I'm honestly not sure if I'm doing this 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/dfc141eb10033909b1c3710609c376a2d3b5aba2_image.png)
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/2ecfd2815a26ca843aa04b71708bd8212ed1a91f_image.png)
+
+I clicked the update board button and deselected the things that were already there (the base keyboard), and I moved some things around and have this:
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d285198f39536ad42af8788581f7bb16e52c94f5_image.png)
 
 While looking at the connectors on the dislays I found this helpful review that I wanted to save for later 
 > <sub><sup>"This TFT display looks great. I was able to very easily get it working with an Arduino Nano using some of the readily available Adafruit libraries. The only part that’s not well documented is that SCL (also called SCK) connects to D13, and SDA (also called MOSI) on D11 for the SPI hardware interface pins (on a Nano). Don’t confuse it with similarly/identically named I2C pins on A4 & A5 – this display uses an SPI connection, not I2C.  The fact that the silkscreen on the board is confusingly labeled with "SDA" and "SCL" could easily make you think it is I2C, which it's not.  It is bright and crisp, and I would gladly recommend it. You do need to solder the included header pins on yourself though. 5 stars."</sup></sub>
