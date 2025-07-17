@@ -69,6 +69,6 @@ I locked in and finished the schematic. I'm honestly not sure if I'm doing this 
 While looking at the connectors on the dislays I found this helpful review that I wanted to save for later 
 > <sub><sup>"This TFT display looks great. I was able to very easily get it working with an Arduino Nano using some of the readily available Adafruit libraries. The only part that’s not well documented is that SCL (also called SCK) connects to D13, and SDA (also called MOSI) on D11 for the SPI hardware interface pins (on a Nano). Don’t confuse it with similarly/identically named I2C pins on A4 & A5 – this display uses an SPI connection, not I2C.  The fact that the silkscreen on the board is confusingly labeled with "SDA" and "SCL" could easily make you think it is I2C, which it's not.  It is bright and crisp, and I would gladly recommend it. You do need to solder the included header pins on yourself though. 5 stars."</sup></sub>
 
-
+Wow, that formatting looks really weird. <sub><sup><sub><sup><sub><sup><sub><sup><sub><sup><sub><sup><sub><sup><sub><sup>hehehehehehehehehe</sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub>
 
 
