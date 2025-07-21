@@ -53,7 +53,7 @@ I looked at the displays again and I think I will use one display for the image 
 
 **0.25 hours**
 
-# July 15-16: Schematics again and board(!)
+# July 15-17: Schematics again and board(!)
 
 oops, i stalled!
 
@@ -70,8 +70,14 @@ I clicked the update board button and deselected the things that were already th
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d285198f39536ad42af8788581f7bb16e52c94f5_image.png)
 
 While looking at the connectors on the dislays I found this helpful review that I wanted to save for later 
-> <sub><sup>"This TFT display looks great. I was able to very easily get it working with an Arduino Nano using some of the readily available Adafruit libraries. The only part that’s not well documented is that SCL (also called SCK) connects to D13, and SDA (also called MOSI) on D11 for the SPI hardware interface pins (on a Nano). Don’t confuse it with similarly/identically named I2C pins on A4 & A5 – this display uses an SPI connection, not I2C.  The fact that the silkscreen on the board is confusingly labeled with "SDA" and "SCL" could easily make you think it is I2C, which it's not.  It is bright and crisp, and I would gladly recommend it. You do need to solder the included header pins on yourself though. 5 stars."</sup></sub>
+> <sub><sup>"This TFT display looks great. I was able to very easily get it working with an Arduino Nano using some of the readily available Adafruit libraries. The only part that’s not well documented is that __SCL (also called SCK) connects to D13, and SDA (also called MOSI) on D11 for the SPI hardware interface pins (on a Nano). Don’t confuse it with similarly/identically named I2C pins on A4 & A5 – this display uses an SPI connection, not I2C.  The fact that the silkscreen on the board is confusingly labeled with "SDA" and "SCL" could easily make you think it is I2C, which it's not.__  It is bright and crisp, and I would gladly recommend it. You do need to solder the included header pins on yourself though. 5 stars."</sup></sub>
 
 Wow, that formatting looks really weird. <sub><sup><sub><sup><sub><sup><sub><sup><sub><sup><sub><sup><sub><sup><sub><sup>hehehehehehehehehe</sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub>
 
+The deadline to submit if you want to go to highway is over, but I couldn't anyway, and just want a new keyboard.
 
+Ok, so now for the board. I decided to do 18mil traces which I _think_ is ok, but for the USB-C connector i need some smaller ones. Overall it was pretty easy. The software (EasyEDA) automatically tells you what you need to connect so you just have to place the components and draw the lines, which I found fun because you have to switch to the back and stuff. Anyway, here it is. 
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/1d8a0d9bea603ff0652d3d1607ed3872e57c568f_image.png)
+
+For some reason, the key outlines are like the same color as the traces on the bottom, but whatever. I'm pretty happy with how it turned out, but somehow I forgot to check what the key connection type is. I had intended to use Kalih hot swappable, but it seems to be for solder on MX or ALPS style switches. I think it's fine, because I'm not really going to be changing these out or anything, so I'm not going to bother re-doing all of that. One thing I hadn't anticipated is that you need the diodes on the back of the PCB, and it costs way more to get assembly on both sides, so I'll hand solder those, which should be possible because its is a "SOD-123" footprint or something which is sort of big. I will, however be using JLCPCB to assemble one side because I don't have the resources to do SMD soldering. The Pi Picos will have to be hand soldered by me though, because they cost like $20 to do with JLC. In total, it looks like the PCB will be around $50+shipping from JLCPCB which seems reasonable to me. I accidentally deleted the item, so I have to redo it :(. Funnily enough, you have to buy 5 or more PCB, which seems wasteful, but I think its still the best value. Now that I'm checking again the shipping is __$38__ which is crazy! I'm trying to see if there's any cheaper option, but I don't know, maybe I'll just have to pay it. PCBway is still much more expensive.
