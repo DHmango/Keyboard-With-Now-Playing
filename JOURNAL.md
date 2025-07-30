@@ -81,3 +81,9 @@ Ok, so now for the board. I decided to do 18mil traces which I _think_ is ok, bu
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/1d8a0d9bea603ff0652d3d1607ed3872e57c568f_image.png)
 
 For some reason, the key outlines are like the same color as the traces on the bottom, but whatever. I'm pretty happy with how it turned out, but somehow I forgot to check what the key connection type is. I had intended to use Kalih hot swappable, but it seems to be for solder on MX or ALPS style switches. I think it's fine, because I'm not really going to be changing these out or anything, so I'm not going to bother re-doing all of that. One thing I hadn't anticipated is that you need the diodes on the back of the PCB, and it costs way more to get assembly on both sides, so I'll hand solder those, which should be possible because its is a "SOD-123" footprint or something which is sort of big. I will, however be using JLCPCB to assemble one side because I don't have the resources to do SMD soldering. The Pi Picos will have to be hand soldered by me though, because they cost like $20 to do with JLC. In total, it looks like the PCB will be around $50+shipping from JLCPCB which seems reasonable to me. I accidentally deleted the item, so I have to redo it :(. Funnily enough, you have to buy 5 or more PCB, which seems wasteful, but I think its still the best value. Now that I'm checking again the shipping is __$38__ which is crazy! I'm trying to see if there's any cheaper option, but I don't know, maybe I'll just have to pay it. PCBway is still much more expensive.
+
+#July 28
+
+ugh its time, and i'm on vacation. I shouldn't have put it off this much.
+
+I am putting it all into cad and it going well. I need to make a case. I was going to have a plate that all the switches slot into, but I realized that it isn't neccesary because I am soldering the switches directly on, and I think it will look cool. I did some more stuff too, like screen mounts
