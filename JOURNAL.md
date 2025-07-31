@@ -1,4 +1,4 @@
----
+<img width="1410" height="622" alt="image" src="https://github.com/user-attachments/assets/f9b8406d-7258-4280-9287-79eaef5be2c8" />---
 title: "Keyboard-With-Utility"
 author: "DHMango"
 description: "A mechanical keyboard that has a screen and you can plug a mouse into"
@@ -84,6 +84,11 @@ For some reason, the key outlines are like the same color as the traces on the b
 
 #July 28
 
-ugh its time, and i'm on vacation. I shouldn't have put it off this much.
+ugh its time, and i'm on vacation. I shouldn't have put it off this much. I locked in and finished the CAD, its simple, but should be great 
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/c64698e1448476548a7a5cbf69f48a18994d2c4c_image.png)
+
+I generated the software from QMK firmware generator, but i cant test it yet.
+
 
 I am putting it all into cad and it going well. I need to make a case. I was going to have a plate that all the switches slot into, but I realized that it isn't neccesary because I am soldering the switches directly on, and I think it will look cool. I did some more stuff too, like screen mounts
