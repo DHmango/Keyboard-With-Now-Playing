@@ -84,11 +84,15 @@ For some reason, the key outlines are like the same color as the traces on the b
 
 #July 28
 
-ugh its time, and i'm on vacation. I shouldn't have put it off this much. I locked in and finished the CAD, its simple, but should be great 
+ugh its time, and i'm on vacation. I shouldn't have put it off this much. I am putting it all into cad and it going well. I need to make a case. I was going to have a plate that all the switches slot into, but I realized that it isn't neccesary because I am soldering the switches directly on, and I think it will look cool. I did some more stuff too, like screen mounts.
+I locked in and finished the CAD, its simple, but should be great 
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/c64698e1448476548a7a5cbf69f48a18994d2c4c_image.png)
 
-I generated the software from QMK firmware generator, but i cant test it yet.
+I generated the firmware from the kbfirmware.com firmware generator, but i cant test it yet.
+The software is hard to finish so far too, so a lot is unfinished.
+
+Overall, I am happy that I was able to finish this in time, even though its not polished.
 
 
-I am putting it all into cad and it going well. I need to make a case. I was going to have a plate that all the switches slot into, but I realized that it isn't neccesary because I am soldering the switches directly on, and I think it will look cool. I did some more stuff too, like screen mounts
+
