@@ -5,6 +5,8 @@ description: "A mechanical keyboard that has a screen and you can plug a mouse i
 created_at: "2025-05-23"
 ---
 
+#Total time: 15hr
+
 # May 23: It begins. Some planning and schematic work.
 
 After thinking for a little while, I settled on a mechanical keyboard with an LCD and some USB ports. This will be my first time designing a PCB, and I don't want to choose something to diffifult, but I think this should be doable and pretty cool. To start, I looked online for similar designs, and found some things I can potentially use as reference. ([Pi Pico Keyboard](https://github.com/zli117/Pico-Keyboard?tab=readme-ov-file), [PCB Keyboard](https://hackspace.raspberrypi.com/articles/how-i-made-a-pcb-mechanical-keyboard), and [USB hub](https://jams.hackclub.com/batch/usb-hub/part-1)). I decided to use KiCad to design the PCB because it seems pretty widely used is free.
@@ -82,6 +84,8 @@ Ok, so now for the board. I decided to do 18mil traces which I _think_ is ok, bu
 
 For some reason, the key outlines are like the same color as the traces on the bottom, but whatever. I'm pretty happy with how it turned out, but somehow I forgot to check what the key connection type is. I had intended to use Kalih hot swappable, but it seems to be for solder on MX or ALPS style switches. I think it's fine, because I'm not really going to be changing these out or anything, so I'm not going to bother re-doing all of that. One thing I hadn't anticipated is that you need the diodes on the back of the PCB, and it costs way more to get assembly on both sides, so I'll hand solder those, which should be possible because its is a "SOD-123" footprint or something which is sort of big. I will, however be using JLCPCB to assemble one side because I don't have the resources to do SMD soldering. The Pi Picos will have to be hand soldered by me though, because they cost like $20 to do with JLC. In total, it looks like the PCB will be around $50+shipping from JLCPCB which seems reasonable to me. I accidentally deleted the item, so I have to redo it :(. Funnily enough, you have to buy 5 or more PCB, which seems wasteful, but I think its still the best value. Now that I'm checking again the shipping is __$38__ which is crazy! I'm trying to see if there's any cheaper option, but I don't know, maybe I'll just have to pay it. PCBway is still much more expensive.
 
+3h
+
 #July 28
 
 ugh its time, and i'm on vacation. I shouldn't have put it off this much. I am putting it all into cad and it going well. I need to make a case. I was going to have a plate that all the switches slot into, but I realized that it isn't neccesary because I am soldering the switches directly on, and I think it will look cool. I did some more stuff too, like screen mounts.
@@ -93,6 +97,8 @@ I generated the firmware from the kbfirmware.com firmware generator, but i cant 
 The software is hard to finish so far too, so a lot is unfinished.
 
 Overall, I am happy that I was able to finish this in time, even though its not polished.
+
+3h
 
 
 
